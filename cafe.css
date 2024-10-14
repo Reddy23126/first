@@ -1,0 +1,45 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+    background-image: url(C:\Users\lokes\OneDrive\Desktop\images.jpeg);
+
+}
+.SPECIALS{
+    width: 100%;
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    margin: 20px;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+li{
+    list-style: none;
+    display: inline-block;       
+}
+li a{
+    padding-right: 30px;
+    padding-left: 40px;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    color:greenyellow;
+}
+li a,img{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+}

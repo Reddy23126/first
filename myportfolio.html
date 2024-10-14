@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Lokesh Reddy</title>
+    <link rel="stylesheet" href="myportfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="c:\Users\lokes\OneDrive\Desktop\mydoc\image.jpg" alt="Lokesh Reddy">
+                <h2>Yarasani Lokesh Reddy</h2>
+                <p>Web developer</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#ABOUT">HOME</a></li>
+                    <li><a href="#ABOUT">ABOUT</a></li>
+                    <li><a href="#EDUCATION">EDUCATION</a></li>
+                    <li><a href="#SKILLS">SKILLS</a></li>
+                    <li><a href="#PROJECT">PROJECT</a></li>
+                    <li><a href="#AWARDS">AWARDS</a></li>
+                    <li><a href="#CONTACT">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="main-content">
+            <section id="ABOUT">
+                <h1>ABOUT</h1>
+                <p>Hi, I'm Lokesh Reddy.I am thrilled to be here today. My name is *YarasaniLokesh Reddy. I recently completed my **Master of Computer Applications (MCA)* in 2024 from *Chaitanya Deemed to be University* in Warangal. Prior to this, I completed my undergraduate degree in *BSc Computer Science* from *Krishna University* in 2022.
+
+                    Throughout my academic journey, I have developed a strong foundation in various programming languages. I am proficient in *HTML, **CSS, and **JavaScript*, which have enabled me to create and manage web development projects.
+                    
+                    During my studies, I worked on a significant project titled "*Crop Yield Prediction using Neural Networks and Machine Learning*." This project involved developing a model to predict crop yields based on various parameters such as soil quality, weather conditions, and crop type.
+                    </p>
+            </section>
+            <hr>
+            <section id="EDUCATION">
+                <h1>EDUCATION</h1>
+                <h3>MCA(MASTER OF COMPUTER APPLICATIONS)</h3>
+                <p>CHAITANYA DEEMED TO BE UNIVERSITY AT WARANGAL WITH 9.3 CGPA</p>
+                <h3>B.Sc(COMPUTER SCIENCE)</h3>
+                <p>SRI SRINIVASA DEGREE & PG COLLEGE AT VISSANNAPET</p>
+                <p>KRISHNA UNIVERSITY WITH 7.65 CGPA</p>
+                <h3>INTERMEDATE</h3>
+                <p>SRI NIDHI JR COLLEGE AT TIRUVURU WITH 6.3 CGPA</p>
+                <h3>SECONDARY EDUCATION</h3>
+                <P>GEETANJILI EM AND TM HIGH SCHOOL AT THOTAMULA WITH 7.0 CGPA</P>
+            </section>
+            <hr>
+            <section id="SKILLS">
+                <h1>SKILLS</h1>
+                <i class='bx bxl-python'></i>
+                <i class='bx bxl-html5' ></i>
+                <i class='bx bxl-css3' ></i>
+                <i class='bx bxl-javascript' ></i>
+            </section>
+            <hr>
+            <section id="PROJECT">
+                <h1>PROJECT</h1>
+                <h2>CROP YIELD PREDICTION USING NEURAL NETWORKS & MACHINE LEARNING</h2>
+                <h3>TECHNOLOGIES TO BE USED : Python , Machine Learning </h3>
+                <h3>MODULES USED IN PROJECT : TensorFlow , NumPy , Pandas , Matplotlib</h3>
+                <h4>PROJECT-DETAILS</h4>
+                <p>The impact of climate change in India, most of the agricultural crops are being badly affected in terms of their performance over a period of the last two decades. Predicting the crop yield in advance of its harvest would help the policy makers and farmers for taking appropriate measures for marketing and storage. This project will help the farmers to know the yield of their crop before cultivating onto the agricultural field and thus help them to make the appropriate decisions. It attempts to solve the issue by building a prototype of an interactive prediction system. 
+                    Implementation of such a system with an easy-to-use web based graphic user interface and the machine learning algorithm will be carried out. The results of the prediction will be made available to the farmer. Thus, for such kind of data analytics in crop prediction, there are different techniques or algorithms, and with the help of those algorithms we can predict crop yield. Random forest algorithm is used. By analyzing all these issues and problems like weather, temperature, humidity, rainfall, moisture, there is no proper solution and technologies to overcome the situation faced by us. In India, there are many ways to increase the economic growth in the field of agriculture. Data mining is also useful for predicting crop yield production. 
+                    Generally, data mining is the process of analyzing data from various viewpoint and summarizing it into important information. Random forest is the most popular and powerful supervised machine learning algorithm capable of performing both classification and regression tasks, that operate by constructing a multitude of decision trees during training time and generating output of the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
+           </p>
+            </section>
+            <hr>
+            <section id="AWARDS">
+                <h1>AWARDS</h1>
+                <h2>HACKER RANK CERTIFICATION ON BASICS OF PYTHON</h2>
+                <h2>MICROSERVICES ARCHITECTURE AND IMPLEMENTATION BY IBM</h2>
+                <h2>ORAL PRESENTATION ABOUT AI GOT SECOND PRIZE</h2>
+            </section>
+            <hr>
+            <section id="CONTACT">
+                <h1>CONTACT</h1>
+                <!-- Include EmailJS SDK -->
+                <form id="contact">
+                    <!-- Recipient Email -->
+                    <label for="recipient_email"></label>
+                    <input type="email" id="recipient_email" name="recipient_email" placeholder="Recipient's Email" required><br>
+                
+                    <!-- Sender's Name -->
+                    <label for="sender_name"></label>
+                    <input type="text" id="sender_name" name="sender_name" placeholder="Your Name" required><br>
+                
+                    <!-- Sender's Email -->
+                    <label for="sender_email"></label>
+                    <input type="email" id="sender_email" name="sender_email" placeholder="Your Email" required><br>
+                    
+                    <!-- Message -->
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="Enter your message" required></textarea><br>
+                    
+                    <!-- Submit Button -->
+                    <button type="submit" class="button button1">Send Message</button>
+                </form>
+                
+                <script>
+                    // Initialize EmailJS with your public key (user ID)
+                    (function() {
+                        emailjs.init("yI0sbPjD3j0KgsE3U"); // Your EmailJS public key
+                    })();
+                
+                    // Handle form submission
+                    document.getElementById('contact').addEventListener('submit', function(event) {
+                        event.preventDefault(); // Prevent default form submission
+                
+                        // Gather form data
+                        var recipientEmail = document.getElementById('recipient_email').value;
+                        var senderName = document.getElementById('sender_name').value;
+                        var senderEmail = document.getElementById('sender_email').value;
+                        var message = document.getElementById('message').value;
+                
+                        // Prepare the parameters to send to EmailJS
+                        var templateParams = {
+                            to_name: recipientEmail,        // Email of the recipient
+                            from_name: senderName,          // Name of the sender
+                            from_email: senderEmail,        // Email of the sender
+                            message: message                // The message to send
+                        };
+                
+                        // Send the email using EmailJS
+                        emailjs.send('service_e5ua25o', 'template_8g5xyqf', templateParams)
+                            .then(function() {
+                                alert('Message sent successfully!');
+                            }, function(error) {
+                                console.error('Error details:', error); // Log error to console for more insights
+                                alert('Failed to send message. Error: ' + JSON.stringify(error));
+                            });
+                    });
+                </script>
+</section>
+        </div> 
+    </div>
+</body>
+</html>
+               

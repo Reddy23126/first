@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url(../images.jpg);
+    background-size: 100% 110%; /* Width: 300px, Height: 200px */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+/* Container for the menu bar */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+/* Menu items */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Space between menu items */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color:whitesmoke; /* Dark green color on hover */
+}
+.hero-section {
+    background-image:url(../images.jpg); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* You can adjust this as needed */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Adjust text color based on your image */
+}
+.btn{
+    border-radius: 5px;
+    background-color: orangered;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f0f0; /* Light background color similar to the image */
+    background-image: none;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+.feature:not(:last-child) {
+    border-right: 1px solid #f5a59d; /* Light red border color */
+}
+
+.feature h2 {
+    color: #f5a59d; /* Same color as the border */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #666;
+}
+/* Section styles */
+.about-florist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+/* Image container styles */
+.image-container {
+    display: flex;
+    gap: 20px; /* Space between images */
+}
+
+.arched-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50% 50% 0 0; /* Creates the arch effect */
+}
+
+/* Text container styles */
+.text-container {
+    max-width: 500px;
+    margin-left: 30px;
+}
+
+.text-container h2 {
+    color: #ff6f61; /* Orange color */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Orange button styles */
+.orange-button {
+    background-color: #FF6600; /* Orange color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.orange-button:hover {
+    background-color: #e65c00; /* Darker orange on hover */
+}
+.container {
+    max-width: 1200px;
+    padding: 20px;
+    background-color: white;
+    background-image: none;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #4A4A4A;
+}
+
+.header p {
+    color: #888;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    width: 30%;
+    text-align: center;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.image-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    color: #E74C3C;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.product p {
+    margin-top: 15px;
+    font-size: 1em;
+    color: #555;
+}
+.offers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: black;
+    background-image: none;
+
+}
+/* Image container styles */
+.image-container {
+    display: flex;
+    gap: 20px; /* Space between images */
+}
+
+.arched-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50% 50% 0 0; /* Creates the arch effect */
+}
+/* Text container styles */
+.text-container {
+    max-width: 500px;
+    margin-left: 30px;
+}
+
+.text-container h2 {
+    text-align: center;
+    color: #ff6f61; /* Orange color */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}

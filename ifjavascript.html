@@ -1,0 +1,58 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert Message Example</title>
+</head>
+<body>
+    <h1>JavaScript Alert Example</h1>
+    <label for="first_name">first_name</label><br>
+    <input type="text" id="first_name" name="first_name"><br>
+    <label for="last_name">last_name</label><br>
+    <input type="text" id="last_name" name="last_name"><br>
+    <label for="password">password</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <button onclick="showAlert()">Click Here</button>
+    <script>
+        // JavaScript function to show an alert
+        function showAlert() {
+            if(password<=5){
+                window.alert("password is not less than 5")
+            }
+        }
+    </script>
+</body>
+</html>
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Alert Example</title>
+</head>
+<body>
+    <h1>Enter Password Example</h1>
+    <input type="password" id="password" placeholder="Enter your password"><br>
+    <button onclick="checkPassword()">Submit</button>
+
+    <script>
+        // JavaScript function to check the password
+        function checkPassword() {
+            // Get the value of the password input field
+            var password = document.getElementById("password").value;
+
+            // Define the correct password
+            var correctPassword = "mypassword";
+
+            // Check if the entered password is correct
+            if (password === correctPassword) {
+                alert("Password is correct!");
+            } else {
+                alert("Incorrect password. Please try again.");
+            }
+        }
+    </script>
+</body>
+</html>

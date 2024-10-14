@@ -1,0 +1,30 @@
+*{
+    text-decoration: none;
+}
+body{
+    margin-top: 0;
+}
+.menubar{
+    position: fixed;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: chocolate;
+    width: 105%;
+}
+.menu{
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+li a{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}

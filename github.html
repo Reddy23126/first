@@ -1,0 +1,195 @@
+<h2 class="skill-heading">
+
+</div>
+
+    <!-- Skill Section End  -->
+
+<!-- Contact Me Section Start  -->
+<section class="contactMeSection" id="contactme">
+<div class="container">
+<h2>Contact Me</h2>
+<h3>Questions, Thoughts, Or Just Want To Say Hello?</h3>
+
+<div class="contactUsForm">
+  <form action="#">
+    <div class="formFieldContainer">
+      <input class="formField" type="text" placeholder="Enter your name" />
+    </div>
+    <div class="formFieldContainer">
+      <input class="formField" type="email" placeholder="Enter your email address" />
+    </div>
+    <div class="formFieldContainer">
+      <input class="formField" type="text" placeholder="Enter your Subject address" />
+    </div>
+    <div class="formFieldContainer">
+      <textarea class="formField" name="message" id="" cols="30" rows="10"
+        placeholder="Enter your message"></textarea>
+    </div>
+    <div class="formBtn">
+      <button type="submit" class="btn" id="submit-btn">
+        Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+      </button>
+    </div>
+  </form>
+</div>
+</div>
+</section>
+<!-- Contact Me Section End  -->
+
+<!-- Footer Section Start  -->
+<footer>
+<div class="container footerContainer">
+<div class="footerFadedText">John Doe</div>
+<div class="linkContainer">
+  <div>
+    <a href="#projects">Projects</a>
+  </div>
+  <div>
+    <a href="#skills">Skills</a>
+  </div>
+  <div>
+    <a href="#contactMe">Contact Me</a>
+  </div>
+</div>
+<div class="iconContainer">
+  <i class="fa-brands fa-linkedin icon"></i>
+  <i class="fa-brands fa-github icon"></i>
+  <i class="fa-brands fa-twitter icon"></i>
+  <i class="fa-brands fa-instagram icon"></i>
+  <i class="fa-regular fa-envelope icon"></i>
+</div>
+</div>
+</footer>
+</div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<style>
+.skill-subHeading p{
+  margin:15px 0;
+}
+
+
+/* Contact Me Section Start  */
+.contactMeSection {
+  width: 100%;
+  background-color: #e7e7e7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 5em;
+  padding-top: 2rem;
+  color: #e84949;
+}
+
+.container h3 {
+  font-size: 3em;
+  color: #343d68aa;
+}
+
+.contactUsForm {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactUsForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* 
+.formFieldContainer{
+  width: 100%;
+} */
+
+.formField {
+  width: 100%;
+  height: 42px;
+  padding: 0 2rem;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px #1f1f1f;
+  background: #ffffff97;
+  font-weight: 500;
+}
+
+.formfield:focus {
+  border: none;
+}
+
+.formFieldContainer textarea {
+  height: auto;
+  padding-top: 1rem;
+}
+
+.formBtn .btn {
+  transition: 0.5s;
+  border: none;
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+.formBtn .btn:hover {
+  transform: scale(0.9);
+}
+
+.formBtn .btn i {
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+/* Contact Me Section Ends  */
+
+/* Footer Section Start  */
+footer {
+  background: #343d68;
+  position: relative;
+  padding: 5rem;
+}
+
+.footerFadedText {
+  font-size: 5em;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #535c87;
+  user-select: none;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+}
+
+.linkContainer {
+  display: flex;
+  gap: 1.2em;
+}
+
+.linkContainer div a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+
+.linkContainer div a:hover{
+  color: #e84949;
+}
+
+.iconContainer{
+  display: flex;
+  gap: 1rem;
+}
+</style>

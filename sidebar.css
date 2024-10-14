@@ -1,0 +1,58 @@
+/* Reset default styling */
+/*body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+.navbar{
+    background-color: aqua;
+}
+.navbar ul{
+    padding: 20px;
+    background-color:yellow ;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}*/
+/* Reset default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500; /* Ensures it stays on top of other content */
+}
+
+.topnav a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
